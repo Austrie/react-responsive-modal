@@ -161,7 +161,7 @@ class Modal extends Component {
     }
 
     return (
-      <Portal container={container}>
+      <Portal container={container} style={this.props.style}>
         <CSSTransition
           in={open}
           appear
